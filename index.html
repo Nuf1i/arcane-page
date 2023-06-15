@@ -1,0 +1,297 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arace</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script>
+  tailwind.config = {
+    theme:{
+      extend: {
+        colors:{
+          'Dark' : '#343434',
+          'main' : '#3549c4',
+          'Pink' : '#fdf2ff',
+        },
+      },
+    },
+  };
+  </script>
+</head>
+<body class="bg-black">
+  <!-- Container -->
+  <div class="mx-16 text-white">
+
+    <!-- Navbar -->
+    <header class="w-full mt-6">
+      <nav class="flex flex-col md:flex-row flex-wrap md:justify-between md:items-cneter relative">
+
+        <div class="text-white">
+          <img class="w-14 h-14" src="./twt-img/logo.png" alt="">
+        </div>
+
+        <div id="menu" class="hidden md:flex-row flex flex-col md:gap-y-0 gap-y-1 justify-center items-center md:block md:flex flex-wrap gap-x-4 md:gap-x-5 text-white font-bold">
+          <div class="">
+            <a class="" href="#">Home</a>
+          </div>
+          <div class="">
+            <a class="" href="#">RIVEWS</a>
+          </div>
+          <div class="">
+            <a class="" href="#">DAILY NEWS</a>
+          </div>
+          <div class="">
+            <a class="" href="#">FEATERS</a>
+          </div>
+        </div>
+
+        <div  id="menu-button" class="absolute right-0 top-1">
+          <ion-icon class="text-5xl hover:cursor-pointer" name="reorder-three-outline"></ion-icon>
+        </div>
+
+        <div id="contact" class="hidden md:block hover:cursor-pointer relative mt-2 p-2 bg-white text-red-700 relative gird font-bold">
+          <h1 class="flex md:mt-1 justify-center items-center z-[999] text-gradient-to-r text-indigo-600 to-pink-500">CONTACT US</h1>
+          <div class="absolute bg-gradient-to-r from-indigo-600 to-pink-500 left-1 top-[.3rem] w-full h-full z-[-99]"></div>
+        </div>
+
+      </nav>
+    </header>
+
+    <!-- Main -->
+
+    <main class="mt-8 w-full flex flex-col items-center">
+
+      <!-- Title -->
+      <div class="text-white font-bold text-5xl flex justify-center items-center">
+        <span class="before:block before:absolute before:w-full before:h-7 before:translate-y-7 before:bg-pink-900 relative inline-block">
+          <span class="relative">Aracne </span>
+       </span>
+       <h1 class="ml-2"> Tv Show</h1>
+      </div>
+
+
+
+      <!-- Sections -->
+      <section class="w-full mt-6 flex flex-wrap justify-center">
+
+          <div class="flex md:justify-start items-center justify-center mr-5">
+            <ion-icon name="search" class="mr-1 text-[1.2rem] text-gray-300"></ion-icon>
+            <input type="text" class="w-7/8 py-1 text-[1.2rem] border-none text-white outline-none  bg-transparent" placeholder="SEARCH">
+          </div>
+
+          <div class="
+          grow flex justify-between items-center flex-wrap ml-auto text-white font-bold mt-4 md:mt-0">
+            <div class="shrink-0 snap-center">
+              <a href="#">ACADEMIC</a>
+            </div>
+            <div class="shrink-0 snap-center">
+              <a href="#">HUMAN & ENVIORMENT</a>
+            </div>
+            <div class="shrink-0 snap-center">
+              <a href="#">SPORTS</a>
+            </div>
+            <div class="shrink-0 snap-center">
+              <a href="#">POLITICAL</a>
+            </div>
+            <div class="shrink-0 snap-center">
+              <a href="#">MUSIC</a>
+            </div>
+            <div class="shrink-0 snap-center">
+              <a href="#">FINANCIAL MARKET</a>
+            </div>
+            <div class="shrink-0 snap-center">
+              <a href="#">OTHER</a>
+            </div>
+          </div>
+      </section>
+
+        <!-- Content -->
+        <div class="w-full mt-5 flex justify-between flex-wrap md:flex-nowrap">
+
+          <!-- Left -->
+          <div class="w-full flex-wrap border-r-2 border-gray-300/20">
+            <h1 class="text-4xl font-bold md:translate-x-6 translate-x-16" >Popular News</h1>
+
+            <div class="w-full flex-col">
+              <!-- TOP -->
+              <div class="mt-6 w-full flex flex-wrap">
+
+                <!-- Image -->
+                <div class="w-1/2 translate-x-4 p-2 relative z-999">
+                  <img  class="w-full object-cover h-48 relative z-20 " src="./twt-img/3.jpg" alt="">
+                  <div class="absolute w-90 h-48 inset-1 translate-x-[10px] translate-y-4 border-2 border-gray-300 z-0">
+                  </div>
+                </div>
+
+
+                <!-- Top Content -->
+                <div class="w-1/2 px-12 py-10 flex-col items-center justify-center">
+
+                  <div class="flex relative">
+                    <div class="absolute h-4 border-l-4 top-[.4rem] -left-3 border-gray-300">
+
+                    </div>
+                    <h1 class="font-mono text-xl" >Jayce CHARACTER <BR>THE LEGEND OF
+                      <span class="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-1">
+                      ARCANE
+                      </span>
+                  </h1>
+                  </div>
+
+                  <!-- Divder -->
+                  <div class="w-full mt-3 border-b"></div>
+
+                  <!-- Profile -->
+                  <div class="flex mt-4 font-mono tracking-widest -translate-x-5 md:-translate-x-0">
+                    <img class="rounded-l w-16 h-16" src="./twt-img/3.jpg" alt="">
+                    <h6 class="py-2 ml-5 text-sm font-serif md:text-tiny text-[10px]">
+                      Nawaf Alharbi
+                      <span>
+                        <p class="md:text-[12px] text-[6px] mt-1 md:mt-4" >
+                          Designer
+                        </p>
+                      </span>
+                    </h6>
+                  </div>
+
+                </div>
+
+              </div>
+
+
+
+              <!-- Bottom -->
+              <div class="w-full flex flex-wrap">
+
+                <!-- Bottom Content -->
+                <div class="w-1/2 px-9 py-10 flex-col items-center justify-center">
+
+                  <div class="flex relative">
+                    <div class="absolute h-4 border-l-4 top-[.4rem] -left-3 border-blue-900">
+
+                    </div>
+                    <h1 class="font-mono text-xl" >JINEX CHARACTER <BR>THE LEGEND OF
+                      <span class="box-decoration-clone bg-gradient-to-r from-indigo-600 to-blue-500 text-white px-1">
+                      ARCANE
+                      </span>
+                  </h1>
+                  </div>
+
+                  <!-- Divder -->
+                  <div class="w-full mt-3 border-b"></div>
+
+                  <!-- Profile -->
+                  <div class="flex mt-4 font-mono tracking-widest">
+                    <img class="rounded-l w-16 h-16" src="./twt-img/jinex.jpg" alt="">
+                    <h6 class="py-2 ml-5 text-sm font-serif md:text-tiny text-[10px]">
+                      Nawaf Alharbi
+                      <span>
+                        <p class="md:text-[12px] text-[6px] mt-1 md:mt-4" >
+                          Designer
+                        </p>
+                      </span>
+                    </h6>
+                  </div>
+
+                </div>
+
+                <!-- Image -->
+                <div class="w-1/2  p-2 -translate-x-4 relative z-999">
+                  <img  class="w-full object-cover h-48 relative z-20 " src="./twt-img/jinex.jpg" alt="">
+                  <div class="absolute w-90 h-48 inset-1 translate-x-[10px] translate-y-4 border-2 border-blue-900 z-0">
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+
+          <!-- Right -->
+          <div class="w-full px-4 flex flex-col  flex-wrap space-y-6">
+
+
+              <div class="mb-4">
+                <h1 class="text-4xl font-bold" >Hot News</h1>
+              </div>
+
+                <!-- Image/button -->
+              <div class="w-full flex justify-between items-center">
+                <!-- Image -->
+                <div class="md:w-10/12 w-9/12 h-72 relative z-999">
+                  <img class="w-full h-full object-cover z-20" src="./twt-img/vi.jpg" alt="">
+                  <div class="absolute h-72 w-full top-3 translate-x-3 border-4 border-pink-900 z-[-1]"> </div>
+                </div>
+
+                <!-- Button -->
+                <div class="flex-col space-y-4 relative">
+
+                  <div class="grid place-items-center relative">
+                    <button  class="bg-gray-200 h-14 w-14 p-2 font-bold text-black text-2xl" type="button" name="button">
+                      <ion-icon name="chevron-up-outline"></ion-icon>
+                    </button>
+                    <div class="absolute h-full w-full -top-1 translate-x-1 border-2 border-pink-900 z-[-1]"> </div>
+                  </div>
+
+                  <div class="relative bg-pink-900 p-2 flex justify-center items-center">
+                    <h1 class="font-bold text-gray-300">1</h1>
+                    <div class="absolute bg-pink-900 right-0 top-0 md:w-[6.3rem] w-[4.3rem] h-full z-[-2]"></div>
+                  </div>
+
+                  <div class="grid place-items-center relative">
+                    <button  class="bg-gray-200 h-14 w-14 p-2 font-bold text-black text-2xl" type="button" name="button">
+                      <ion-icon name="chevron-down-outline"></ion-icon>
+                    </button>
+                    <div class="absolute h-full w-full -top-1 translate-x-1 border-2 border-pink-900 z-[-1]"> </div>
+                  </div>
+                </div>
+
+              </div>
+
+            <!-- Desc -->
+            <div class="px-3 w-full space-y-4">
+
+              <div class="flex flex-wrap text-white font-bold text-2xl">
+               <h1 class="mr-2">VI Character from</h1>
+               <span class="before:absolute before:w-full before:h-5 before:translate-y-4 before:bg-pink-900 relative inline-block">
+                 <span class="relative">ARCANE</span>
+               </span>
+              </div>
+
+              <div class="3">
+                <p>Lciis ipsa expedita dolore  soluta tempora voluptatum nesciunt cum sequi ratione quae eum sint magnam.
+                nesciunt cum sequi rat  soluta tempor </p>
+              </div>
+
+            </div>
+
+            <!-- Profile -->
+            <div class="">
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+  </script>
+  <script type="text/javascript">
+  const button = document.querySelector('#menu-button');
+  const menu = document.querySelector("#menu");
+  const contact = document.querySelector("#contact");
+
+  button.addEventListener('click', () => {
+  menu.classList.toggle('hidden');
+  contact.classList.toggle('hidden');
+  });
+  </script>
+</body>
+</html>
